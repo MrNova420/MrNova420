@@ -56,8 +56,8 @@ Whether you want to use my programs, report bugs, suggest features, or just say 
 
 ## 🌟 Featured Projects
 
-- **[NovaShieldV2](https://github.com/MrNova420/NovaShieldV2)**  
-  Next-gen security & stability
+- **[NovaShield] aka stable version (https://github.com/MrNova420/NovaShieldStableVersion)**  
+  Next-gen Web dashboard, With Built In Tools, security & stability
 
 - **[Nova Auto Versus Miner](https://github.com/MrNova420/NovaAutoVersusMiner)**  
   Feature-rich automation coming soon!
