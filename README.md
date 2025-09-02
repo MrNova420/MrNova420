@@ -2,6 +2,19 @@
 
 # 👋 I'm MrNova420
 
+
+<p align="center">
+    <img src="<p align="center">
+    <img src="https://user-images.githubusercontent.com/12345678/banner.png" alt="MrNova420 Banner" />
+</p>" alt="MrNova420 Banner" />
+</p>
+
+
+
+
+
+
+
 Welcome to my GitHub profile!  
 I'm a passionate developer focused on building robust, innovative solutions. Most of my work is still in progress, but I'm dedicated to refining and completing projects that make a difference.
 
