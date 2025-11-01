@@ -1,113 +1,76 @@
-<div align="center">
+## Hi there 👋
 
-# 👋 Hey there! I'm MrNova420
+# 👋 I'm MrNova420
 
-### 🚀 Developer | 🎮 Game Creator | 🔐 Security Enthusiast
 
-[![GitHub followers](https://img.shields.io/github/followers/MrNova420?style=social)](https://github.com/MrNova420)
-[![GitHub stars](https://img.shields.io/github/stars/MrNova420?style=social)](https://github.com/MrNova420)
+<p align="center">
+    <img src="https://private-user-images.githubusercontent.com/155208275/484640324-dad40391-62f0-45d6-9426-621b46c0a3ab.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY4MjY1MDQsIm5iZiI6MTc1NjgyNjIwNCwicGF0aCI6Ii8xNTUyMDgyNzUvNDg0NjQwMzI0LWRhZDQwMzkxLTYyZjAtNDVkNi05NDI2LTYyMWI0NmMwYTNhYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkwMlQxNTE2NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZjQxYTM4MGEwN2QxMjI1MjVhNzVkNWI2NGUxMjI4ZmM0ZDAwZjdjYjkxMWIxNTJkN2IxYTdmMmQ3OGJiMWM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4BqRXRMM2tc1YIyDebO00GLOodVaAoiT3AbEYhSORLA" alt="MrNova420 Banner" />
+</p>
 
-</div>
 
----
 
-## 🌟 About Me
 
-Welcome to my GitHub! I'm a passionate developer who loves building innovative projects. I believe in sharing work early, iterating often, and building in public. Check out my featured projects below!
 
----
 
-## 🎯 Featured Projects
 
-### 🎮 **[Web Game Development Kit](https://github.com/MrNova420/web-game)**
-
-A comprehensive TypeScript-based web game development environment with modern tooling and frameworks. Perfect for creating immersive web-based games!
-
-**Features:**
-- 🎨 Modern game development tools
-- 🚀 TypeScript-powered
-- 🌐 Web-based gaming platform
-- 🛠️ Comprehensive dev kit
-
-**Status:** 🟢 Active Development
-
-[⭐ Check it out →](https://github.com/MrNova420/web-game)
+Welcome to my GitHub profile!  
+I'm a passionate developer focused on building robust, innovative solutions. Most of my work is still in progress, but I'm dedicated to refining and completing projects that make a difference.
 
 ---
 
-### 🛡️ **[NovaShield Stable Version](https://github.com/MrNova420/NovaShieldStableVersion)**
+## 🚀 Main Project: NovaShieldV2
 
-Next-gen web dashboard with built-in Jarvis-like AI, security tools, terminal access, and all-in-one management. Your complete security and development command center!
+**NovaShieldV2** is now my flagship project—actively developed, stable, and soon to be my first fully completed repository!  
+> **Note:** The original NovaShield repo will be deprecated and deleted soon. After that, **NovaShieldV2 will be renamed to just NovaShield** and will be the only maintained version going forward.
 
-**Features:**
-- 🤖 AI-powered assistance
-- 🔒 Security scanning & monitoring
-- 💻 Integrated terminal
-- 📊 Comprehensive dashboard
-- 🛠️ Built-in developer tools
-
-**Status:** 🟢 Stable & Production Ready
-
-[⭐ Check it out →](https://github.com/MrNova420/NovaShieldStableVersion)
+**Why NovaShieldV2?**  
+- Security-driven, reliable, and built with best practices  
+- Designed for stability but always open to new ideas and improvements  
+- Welcoming collaboration, suggestions, and contributions!
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ What's Next?
 
-```text
-Languages:       TypeScript, JavaScript, Python, Shell
-Frameworks:      Node.js, React
-Specialties:     Web Development, Game Development, Security Tools
-```
+After NovaShieldV2, I’ll be turning my attention to **Nova Auto Versus Miner**—aiming for a full, feature-rich release.  
+Most of my repos are “in development”—I believe in continuous improvement and sharing work early so others can learn, use, and contribute.
 
 ---
 
-## 📊 GitHub Stats
+## 💡 How I Operate
 
-<div align="center">
-
-![MrNova420's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MrNova420&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MrNova420&layout=compact&theme=radical&hide_border=true)
-
-</div>
+- **Open Source First:** I encourage everyone to use, fork, and contribute to my projects.
+- **Continuous Development:** No repo is ever truly “done”—expect frequent updates!
+- **Community Driven:** Feedback and pull requests are always welcome.
 
 ---
 
-## 💡 My Philosophy
+## 📢 Get Involved
 
-🔓 **Open Source First** - I believe in sharing knowledge and building together  
-🔄 **Continuous Development** - Always improving, always learning  
-🤝 **Community Driven** - Your feedback shapes my projects  
-🚀 **Ship Early, Iterate Often** - Perfect is the enemy of done
-
----
-
-## 🤝 Let's Collaborate!
-
-I'm always excited to connect with fellow developers and tech enthusiasts!
-
-💬 **Got ideas?** Open an issue  
-🐛 **Found a bug?** Submit a pull request  
-⭐ **Like my work?** Star the repos  
-🔗 **Want to collaborate?** Reach out!
+Whether you want to use my programs, report bugs, suggest features, or just say hi—your engagement is valued!
+- Open an **issue** for feedback or bug reports
+- Submit **pull requests** for improvements
+- Reach out via my GitHub profile for collaboration
 
 ---
 
-<div align="center">
+## 🌟 Featured Projects
 
-### 📫 Connect With Me
+- **[NovaShield aka stable version](https://github.com/MrNova420/NovaShieldStableVersion)**  
+  Next-gen Web dashboard, With Built In Tools, security & stability
 
-[![GitHub](https://img.shields.io/badge/GitHub-MrNova420-181717?style=for-the-badge&logo=github)](https://github.com/MrNova420)
-
----
-
-**💼 Open to collaborations | 🌟 Always building something new | 🚀 Join me on this journey!**
-
-*"The best way to predict the future is to create it."*
+- **[Nova Auto Versus Miner](https://github.com/MrNova420/NovaAutoVersusMiner)**  
+  Feature-rich automation coming soon!
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=MrNova420&color=blueviolet&style=flat-square&label=Profile+Views)
+## 🔗 Connect
 
-</div>
+You can find all my work right here on GitHub.  
+Want to chat, collaborate, or just follow my progress?  
+- [GitHub Profile](https://github.com/MrNova420)
+
+---
+
+**Thanks for stopping by!**  
+Feel free to explore, use, and contribute to my projects. Let’s build something great together!
