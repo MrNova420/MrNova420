@@ -6,7 +6,7 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-[![All-Time Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMrNova420&count_bg=%2300FF41&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false&style=for-the-badge)](https://github.com/MrNova420)
+[![All-Time Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMrNova420&count_bg=%2300FF41&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false)](https://github.com/MrNova420)
 [![GitHub Followers](https://img.shields.io/github/followers/MrNova420?style=for-the-badge&logo=github&color=blue)](https://github.com/MrNova420?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/MrNova420?style=for-the-badge&logo=github&color=yellow)](https://github.com/MrNova420?tab=repositories)
 
