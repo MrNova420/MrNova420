@@ -26,7 +26,7 @@
 + 🌟 Currently forging NovaForge - The ultimate development platform
 + 🔐 Architecting DNALock - Revolutionary security reimagined
 + 💡 Open to collaboration on groundbreaking projects
-+ 🎯 2025 Mission: Empower 10,000+ developers with innovative tools
++ 🎯 2025 - 2027 Mission: Empower 10,000+ developers with innovative tools
 ```
 
 <p align="center">
