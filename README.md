@@ -55,7 +55,7 @@
 
 </div>
 
-**Nova-Forge is a complete game development ecosystem** - not just an editor, but a full platform for creating, building, hosting, and playing games. Think of it as **your own Unity/Unreal Engine + Steam combined**, designed for the modern web and powered by the revolutionary **NovaCore Engine** - the world's first neural-symbolic game engine built from scratch.
+**Nova-Forge is a complete game development ecosystem** - not just an editor, but a full platform for creating, building, hosting, and playing games. Think of it as **your own Unity/Unreal Engine + Steam combined**, designed for the modern App store then hopefully eventually web and powered by the revolutionary **NovaCore Engine** - the world's first neural-symbolic game engine built from scratch.
 
 This is a **complete platform for game development**:
 - ✅ **Game Editor** (visual development environment)
