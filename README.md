@@ -61,7 +61,7 @@ This is a **complete platform for game development**:
 - ✅ **Game Editor** (visual development environment)
 - ✅ **NovaCore Engine** (custom-built neural-symbolic rendering/physics engine)
 - ✅ **Asset Pipeline** (AI-generation + traditional workflows)
-- ✅ **Multiplayer Infrastructure** (64-player rollback netcode)
+- ✅ **Multiplayer Infrastructure** (64 -player rollback netcoode and 2-10,000 player )
 - ✅ **Distribution Platform** (host and sell your games)
 - ✅ **Player Marketplace** (Steam-like game discovery)
 
