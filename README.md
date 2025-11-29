@@ -70,6 +70,7 @@ Every line of code is **custom-built from scratch** - not a fork of Unity, Unrea
 #### 🌟 NovaCore Engine - The Heart of the Platform:
 
 **World-First Technologies:**
+- 📚 **Self-Learning &  Self Improving** Overseen by The Owner and a Team before any commits to the engine for safety and security and to ensure highest quality of improvements.
 - 🧬 **Neural-Symbolic ECW Architecture** - Hybrid Entity-Component-Worker with embedded machine learning that self-optimizes
 - ⚡ **Universal Continual Ray Tracing (UCRT)** - Mobile ray tracing with 90% ray reuse via AI diffusion networks
 - 🎮 **Differentiable Physics** - Physics engine that learns material properties on-device via gradient descent
