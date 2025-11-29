@@ -194,6 +194,8 @@ Every line of code is **custom-built from scratch** - not a fork of Unity, Unrea
 
 **The world's first biologically-inspired authentication system.** DNALockOS reimagines digital identity through **structured "digital DNA strands"** - combining military-grade cryptography with stunning 3D visualizations. Instead of passwords, users have a unique digital DNA with hundreds of thousands of "segments" encoding authentication data, each rendered as a glowing, animated helix.
 
+Note - Not yet developed, Soon to be developed!!
+
 One DNA key works **everywhere**: web apps, mobile, desktop, IoT, government systems, and enterprise SSO. Authentication becomes engaging, memorable, and more secure than anything that came before.
 
 #### 🧬 Core Innovation - The Digital DNA Strand:
