@@ -1,10 +1,21 @@
-# Welcome to MrNova420's Hub 💜🚀
+                                                                   💜👨‍💻💜
+                                                                    🚀
+                                                            Welcome to MrNova420's Hub
+
+
+
+
+                                                                A Little About Me
+
+
+
+
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=Beginner-Developer;Pushing+Boundaries+%7C+Breaking+Limits+%7C+Creating+Future;Building+NovaForge+%7C+Creating+NovaCore-Engine" alt="Typing SVG" />
 
 
 
----
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Innovation-00ff41?style=for-the-badge" alt="Focus"/>
@@ -16,9 +27,6 @@
 
 
 
----
-                                                                        "A Little About Me"
----
 
 
 **Hey, I'm MrNova420!**  
@@ -26,7 +34,7 @@ A passionate beginner developer, still learning just like everyone!, who turns i
 
 
 
----
+
 
 ## 👽 Who Am I, Really?
 
