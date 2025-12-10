@@ -1,8 +1,8 @@
-                                                                   💜👨‍💻💜
-                                                                    🚀
+                                                                
                                                             Welcome to MrNova420's Hub
 
-
+                                                                    💜👨‍💻💜
+                                                                       🚀
 
 
                                                                 A Little About Me
