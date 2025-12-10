@@ -3,9 +3,28 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=Beginner-Developer;Pushing+Boundaries+%7C+Breaking+Limits+%7C+Creating+Future;Building+NovaForge+%7C+Creating+NovaCore-Engine" alt="Typing SVG" />
 
 
+
 ---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Innovation-00ff41?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Passion-Creating-blueviolet?style=for-the-badge" alt="Passion"/>
+  <img src="https://img.shields.io/badge/Mission-Empower_Developers-orange?style=for-the-badge" alt="Mission"/>
+</p>
+
+</div>
+
+
+
+---
+                                                                        "A Little About Me"
+---
+
+
 **Hey, I'm MrNova420!**  
 A passionate beginner developer, still learning just like everyone!, who turns ideas into experiments, experiments into projects, and projects into tools for everyone. Here, you'll find my digital workshop—where curiosity meets creation.
+
+
 
 ---
 
@@ -19,6 +38,8 @@ A passionate beginner developer, still learning just like everyone!, who turns i
 > Every repository here is alive: improving, growing, and open to new possibilities.
 
 ---
+
+
 
 ## 🚧 Active Projects & Experiments
 
