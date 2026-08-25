@@ -30,25 +30,67 @@
 
 <br/>
 
+## 👑 The NovaForge Suite
+
+*The crown jewel — a complete game ecosystem, built from scratch:*
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### 🔥 Nova-Forge — The 3-in-1 Platform
+> *"Build games. Publish games. Get paid."*
+
+A long-term play at a complete game industry stack:
+
+1. 🧬 **NovaCore** — custom AAA game engine built **from scratch in C++23**
+2. 🛠️ **Editor & Tools** — build games on real devices (Vulkan pipeline)
+3. 🕹️ **NovaForge App** — game library & store where players discover and play
+
+*Your own Unity/Unreal + Steam combined, designed for the modern web.*
+
+</td>
+<td valign="top" width="50%">
+
+### 🌍 NovaForge World Engine
+> *"The AAA open-world editor that runs in your browser"*
+
+Create massive 3D worlds. Sculpt terrain. Paint forests.
+Export to any engine. **No code required.**
+
+![TypeScript](https://img.shields.io/badge/TypeScript_5.3-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js_r160-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![WebGPU](https://img.shields.io/badge/WebGPU_Ready-5B21B6?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 ## ⭐ Flagship Projects
 
 | Project | What It Is | Built With |
 |---|---|---|
-| **NovaForge World Engine** | AAA procedural open-world editor that runs entirely in your browser | TypeScript · Three.js |
+| **Nova-Forge** | 3-in-1 game platform — custom engine + editor + store | C++23 · Vulkan · Python |
 | **WebForge** | The ultimate web game development platform — feature-complete engine, 227 source files | TypeScript · **1,910 tests** |
 | **Varro** | 100% local autonomous AI developer — 9 specialized agents, 28 tools, zero cloud | Python · **1,059 tests** |
 | **Nexus** | Multimodal voice AI that hears, sees, and controls your computer on any OS | Gemini 2.5 Live API |
 | **RoyalOS** | Local-first, self-hostable AI operating platform — one control plane for agent fleets | TypeScript |
+| [**RoyalSecurity**](https://github.com/MrNova420/RoyalSecurity) | Open-source all-in-one cybersecurity platform — EDR/XDR/SIEM/HIPS/DLP in a single lightweight agent | Rust · Tauri 2 · Next.js 16 |
 | **BLOCKLIFE-AI** | A living Minecraft civilization engine — quantized local models run self-aware bot societies | TypeScript · Ollama |
 | **Aetheria: Endless Frontiers** | Browser RPG — GTA × No Man's Sky × Satisfactory. 255 procedural galaxies, no install | Three.js · WebGL2 |
 | **NEON ARENA** | Cyberpunk first-person arena shooter with AI bots and multiplayer | TypeScript · **750+ tests** |
+| **AutoOffsetDumper** | Universal memory-offset scanner — 25+ engines, ML classification, LLM semantic labeling | Rust · C# |
+| **omnieye** | Phone-based RF/network reconnaissance — 6 collectors, 3D web UI, fingerprint engine | Python |
+| **DNALockOS** | Proprietary DNA-key authentication system — commercial-grade licensing & security | Python |
+| [**AnVPS**](https://github.com/MrNova420/AnVPS) | Any Android device → self-managed, auto-healing, privacy-hardened VPS on 32MB RAM | Shell · Termux |
+| **odysseus** | Self-hosted AI workspace — local models, agents with MCP + memory, privacy-first | JavaScript |
 
 <br/>
 
 ## 🗄️ Project Vault
-
-<details>
-<summary><b>Explore the full ecosystem →</b> (30+ highlights)</summary>
 
 ### 🎮 Game Engines & Worlds
 | Project | One-Liner |
@@ -109,7 +151,13 @@
 | [**minefind**](https://github.com/MrNova420/minefind) | Rust-powered Minecraft server discovery — find every server in the world |
 | [**ScriptVaultLibs**](https://github.com/MrNova420/ScriptVaultLibs) | Lua library suite — UI, utils, and core frameworks |
 
-</details>
+### 🧬 NovaForge Family
+| Project | One-Liner |
+|---|---|
+| **Nova-Forge** | The 3-in-1 platform — NovaCore C++23 engine + device editor + game store |
+| **NovaForge World Engine** | Browser-based AAA open-world editor — terrain sculpting, forest painting, engine export |
+| **NovaCore Engine** | Custom AAA engine from scratch — Vulkan rendering pipeline |
+| **royal-forge** | Royal Commander task manager CLI in Rust |
 
 <br/>
 
@@ -208,7 +256,8 @@ VPS deployment, mining rigs, shell automation, phone-as-server
 
 *Live from the workshop — most-hammered builds right now:*
 
-- 🔥🔥🔥 **Memory-analysis & offset-scanning tooling** — Rust rewrite, ML-assisted classification *(highest activity)*
+- 🔥🔥🔥 **NovaCore engine** — custom AAA game engine from scratch in C++23 with Vulkan *(the long game)*
+- 🔥🔥🔥 **Memory-analysis & offset-scanning tooling** — Rust rewrite, ML-assisted classification
 - 🔥🔥 **Encrypted delivery & licensing platform** — offline-first protection system iterations
 - 🔥🔥 **Autonomous agent platform expansion** — fleet management, community systems, voice
 - 🔥 **Movie stream pipeline** — sniffer → downloader → player
@@ -241,12 +290,14 @@ VPS deployment, mining rigs, shell automation, phone-as-server
 
 ## 🐍 Contribution Snake
 
+*Self-generated from real contribution data — 5,132 contributions, no GitHub Actions required.*
+
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MrNova420/MrNova420/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MrNova420/MrNova420/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/MrNova420/MrNova420/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg" />
+  <img alt="Animated snake eating through the contribution grid" src="assets/snake-dark.svg" />
 </picture>
 
 </div>
