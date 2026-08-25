@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=MrNova420&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=Ecosystem%20Builder%20%C2%B7%20150%2B%20Projects%20%C2%B7%2020%2B%20Languages&descSize=18&descAlignY=70&color=0:a855f7,100:6d28d9" width="100%" />
+
 # Welcome to MrNova420's Hub
 
 💜👨‍💻💜 🚀
@@ -43,6 +45,21 @@ A passionate beginner developer, still learning just like everyone!, who turns i
 - I don't build apps. I build **platforms**: game engines, AI operating systems, security suites, and the infrastructure underneath them.
 - Every repo reflects not just what I'm interested in, but what I want you to discover and have fun with while being useful.
 - Driven by learning and real-life uses, not just in code, but in how people use technology.
+
+> _"I'm a developer focused on long-term projects and experimentation."_ — Every repository here is alive: improving, growing, and open to new possibilities.
+
+---
+
+## 🚀 Active Projects & Experiments
+
+Check out my main repositories — each with its own story, utility, and curiosity:
+
+- **[My GitHub Projects](https://github.com/MrNova420?tab=repositories)**
+    - _Active, practical tools and demos_
+    - _Experimental code and playgrounds_
+    - _Long-term commitments in open source_
+
+👀 _Browse my commit history:_ See the evolution — code changes, refactors, and community input.
 
 ---
 
@@ -278,6 +295,8 @@ VPS deployment, mining rigs, shell automation
 - **Engaged:** I answer DMs, respond to your issues, and value collaborators.
 - **Fun:** I believe coding should be creative and playful — expect surprises!
 - **Building Ecosystems:** Not just apps — game engines, AI platforms, security suites, all from scratch.
+- **Always Evolving:** I never leave things stale — updates and improvements land frequently.
+- **Real Experiments:** If it's here, I've tested it, broken it, and rebuilt it for the next breakthrough.
 
 ---
 
@@ -296,16 +315,16 @@ VPS deployment, mining rigs, shell automation
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MrNova420&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00ff41&icon_color=00ff41&text_color=E6EDF3&border_color=21262d" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrNova420&layout=compact&hide_border=true&bg_color=0D1117&title_color=00ff41&text_color=E6EDF3&langs_count=10&border_color=21262d" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=MrNova420&show_icons=true&hide_border=true&theme=radical" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrNova420&layout=compact&hide_border=true&theme=radical&langs_count=10" height="165" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=MrNova420&hide_border=true&background=0D1117&stroke=00ff41&ring=C084FC&fire=F472B6&currStreakLabel=00ff41&sideLabels=E6EDF3&dates=8B949E&border=21262d" height="165" />
+<img src="https://streak-stats.demolab.com?user=MrNova420&hide_border=true&theme=radical" height="165" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MrNova420&bg_color=0D1117&color=E6EDF3&line=00ff41&point=C084FC&hide_border=true&area=true&area_color=6D28D9&border_color=21262d" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MrNova420&bg_color=0D1117&color=E6EDF3&line=A855F7&point=C084FC&hide_border=true&area=true&area_color=6D28D9" width="100%" />
 
 <br/>
 
@@ -353,13 +372,12 @@ VPS deployment, mining rigs, shell automation
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=MrNova420&label=Profile+Views&color=00ff41&style=flat-square)
-![All-Time Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMrNova420&count_bg=%2300FF41&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=All-Time+Views&edge_flat=true)
+![Profile Views](https://komarev.com/ghpvc/?username=MrNova420&label=Profile+Views&color=A855F7&style=flat-square)
 
 ![Followers](https://img.shields.io/github/followers/MrNova420?label=Followers&style=social)
 ![Stars](https://img.shields.io/github/stars/MrNova420?label=Total%20Stars&style=social)
 
-<sub>All metrics auto-update in real-time — 100% future-proof!</sub>
+<sub>All metrics auto-update in real-time</sub>
 
 </div>
 
