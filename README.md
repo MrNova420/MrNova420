@@ -1,630 +1,385 @@
-<style>
-  .profile-card {
-    background: linear-gradient(135deg, #0d0221 0%, #1a0a3e 50%, #0d0221 100%);
-    border: 1px solid rgba(168, 85, 247, 0.3);
-    border-radius: 12px;
-    padding: 2rem;
-    margin: 1rem 0;
-  }
-  .profile-card h2 {
-    color: #c084fc;
-    font-size: 1.4rem;
-    margin-top: 0;
-  }
-  .profile-card p {
-    color: #a3a3a3;
-    line-height: 1.6;
-  }
-  .tag {
-    display: inline-block;
-    background: rgba(168, 85, 247, 0.15);
-    color: #c084fc;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    margin: 4px;
-    border: 1px solid rgba(168, 85, 247, 0.3);
-  }
-  .skill-bar {
-    height: 6px;
-    border-radius: 3px;
-    background: rgba(255,255,255,0.08);
-    margin: 8px 0;
-    overflow: hidden;
-  }
-  .skill-fill {
-    height: 100%;
-    border-radius: 3px;
-    background: linear-gradient(90deg, #6d28d9, #a855f7);
-  }
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
-  }
-  .project-item {
-    background: linear-gradient(135deg, rgba(109, 40, 217, 0.08), rgba(168, 85, 247, 0.04));
-    border: 1px solid rgba(168, 85, 247, 0.15);
-    border-radius: 10px;
-    padding: 1.2rem;
-    transition: border-color 0.2s;
-  }
-  .project-item:hover {
-    border-color: rgba(168, 85, 247, 0.5);
-  }
-  .project-item h3 {
-    color: #e9d5ff;
-    margin: 0 0 0.4rem;
-    font-size: 1rem;
-  }
-  .project-item p {
-    color: #737373;
-    margin: 0;
-    font-size: 0.85rem;
-    line-height: 1.5;
-  }
-  .project-item .tech {
-    color: #a78bfa;
-    font-size: 0.75rem;
-    margin-top: 0.5rem;
-  }
-  .nova-card {
-    background: linear-gradient(135deg, #1e0a3c 0%, #2d1065 50%, #1a0a3e 100%);
-    border: 1px solid rgba(168, 85, 247, 0.4);
-    border-radius: 14px;
-    padding: 2rem;
-    margin: 1.5rem 0;
-    position: relative;
-    overflow: hidden;
-  }
-  .nova-card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.06) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .nova-card h2 {
-    color: #e9d5ff;
-    font-size: 1.6rem;
-    margin-top: 0;
-    position: relative;
-  }
-  .nova-card p {
-    color: #a3a3a3;
-    line-height: 1.7;
-    position: relative;
-  }
-  .divider {
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.3), transparent);
-    margin: 2.5rem 0;
-  }
-  .section-title {
-    color: #c084fc;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .section-title::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, rgba(168, 85, 247, 0.3), transparent);
-  }
-  .tech-pill {
-    display: inline-block;
-    padding: 3px 10px;
-    border-radius: 12px;
-    font-size: 0.75rem;
-    margin: 3px;
-    color: #d4d4d4;
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.1);
-  }
-</style>
-
 <div align="center">
-  <svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#c084fc"/>
-        <stop offset="50%" stop-color="#a855f7"/>
-        <stop offset="100%" stop-color="#7c3aed"/>
-      </linearGradient>
-      <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#c084fc" stop-opacity="0"/>
-        <stop offset="30%" stop-color="#c084fc" stop-opacity="0.4"/>
-        <stop offset="70%" stop-color="#a855f7" stop-opacity="0.4"/>
-        <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
-      </linearGradient>
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="2" result="blur"/>
-        <feMerge>
-          <feMergeNode in="blur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
-    <line x1="0" y1="30" x2="600" y2="30" stroke="url(#g2)" stroke-width="1"/>
-    <line x1="0" y1="130" x2="600" y2="130" stroke="url(#g2)" stroke-width="1"/>
-    <text x="300" y="75" text-anchor="middle" font-family="monospace" font-size="38" font-weight="bold" fill="url(#g1)" filter="url(#glow)">MrNova420</text>
-    <text x="300" y="105" text-anchor="middle" font-family="monospace" font-size="13" fill="#7c7c7c">Ecosystem Builder · 150+ Projects · 20+ Languages</text>
-    <circle cx="80" cy="30" r="2" fill="#c084fc" opacity="0.6"/>
-    <circle cx="520" cy="30" r="2" fill="#a855f7" opacity="0.6"/>
-    <circle cx="80" cy="130" r="2" fill="#a855f7" opacity="0.6"/>
-    <circle cx="520" cy="130" r="2" fill="#c084fc" opacity="0.6"/>
-  </svg>
+
+# Welcome to MrNova420's Hub
+
+💜👨‍💻💜 🚀
+
+<a href="https://github.com/MrNova420">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=Beginner+Developer;Pushing+Boundaries+%7C+Breaking+Limits+%7C+Creating+Future;150%2B+Projects+%7C+20%2B+Languages+%7C+Building+Everything" alt="Typing SVG" />
+</a>
+
+<br/>
+
+![Focus](https://img.shields.io/badge/Focus-Innovation-00ff41?style=for-the-badge)
+![Passion](https://img.shields.io/badge/Passion-Creating-blueviolet?style=for-the-badge)
+![Mission](https://img.shields.io/badge/Mission-Empower_Developers-orange?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-150%2B-A855F7?style=for-the-badge)
+![Languages](https://img.shields.io/badge/Languages-20%2B-C084FC?style=for-the-badge)
+
+<br/>
+
+![Game Engines](https://img.shields.io/badge/Game_Engines-00ff41?style=flat-square)
+![AI Systems](https://img.shields.io/badge/AI_Systems-7C3AED?style=flat-square)
+![Security](https://img.shields.io/badge/Security-6D28D9?style=flat-square)
+![Reverse Engineering](https://img.shields.io/badge/Reverse_Engineering-9333EA?style=flat-square)
+![Web Platforms](https://img.shields.io/badge/Web_Platforms-C084FC?style=flat-square)
+![Automation](https://img.shields.io/badge/Automation-5B21B6?style=flat-square)
+
 </div>
 
-<div align="center">
-  <span class="tag">🎮 Game Engines</span>
-  <span class="tag">🧠 AI Systems</span>
-  <span class="tag">🛡️ Security</span>
-  <span class="tag">🔧 Reverse Engineering</span>
-  <span class="tag">🌐 Web Platforms</span>
-  <span class="tag">⚙️ Automation</span>
-</div>
+---
 
-<div class="divider"></div>
-
-## About
+**Hey, I'm MrNova420!**
+A passionate beginner developer, still learning just like everyone!, who turns ideas into experiments, experiments into projects, and projects into platforms for everyone. Here, you'll find my digital workshop — where curiosity meets creation.
 
 > *"I'm a developer focused on long-term projects and experimentation — all repositories are under active development and continuously improved."*
+> Every repository here is alive: improving, growing, and open to new possibilities.
 
-I don't build apps. I build **platforms**. Game engines from scratch in C++. AI agents that control your entire computer. Cybersecurity suites with thousands of passing tests. Browser-based world editors rivaling desktop tools. Entire game industry stacks — engine, editor, store — built solo, continuously evolving.
+---
 
-<div class="divider"></div>
+## 👽 Who Am I, Really?
 
-## 👑 NovaForge
+- **Curious mind. Relentless experimenter. Builder of entire ecosystems.**
+- I don't build apps. I build **platforms**: game engines, AI operating systems, security suites, and the infrastructure underneath them.
+- Every repo reflects not just what I'm interested in, but what I want you to discover and have fun with while being useful.
+- Driven by learning and real-life uses, not just in code, but in how people use technology.
 
-<div class="nova-card">
-  <h2>The 3-in-1 Game Platform</h2>
-  <p>Not a framework. Not a library. A <strong>complete game industry stack</strong> built from scratch.</p>
-  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 1.5rem; position: relative;">
-    <div style="background: rgba(168,85,247,0.08); border-radius: 8px; padding: 1rem;">
-      <div style="color: #e9d5ff; font-weight: 600; margin-bottom: 0.4rem;">🧬 NovaCore</div>
-      <div style="color: #737373; font-size: 0.85rem;">Custom AAA game engine built from scratch in <strong style="color: #c084fc;">C++23</strong> with Vulkan rendering</div>
-    </div>
-    <div style="background: rgba(168,85,247,0.08); border-radius: 8px; padding: 1rem;">
-      <div style="color: #e9d5ff; font-weight: 600; margin-bottom: 0.4rem;">🛠️ Editor</div>
-      <div style="color: #737373; font-size: 0.85rem;">Native game development tools — build on real devices with a Vulkan pipeline</div>
-    </div>
-    <div style="background: rgba(168,85,247,0.08); border-radius: 8px; padding: 1rem;">
-      <div style="color: #e9d5ff; font-weight: 600; margin-bottom: 0.4rem;">🕹️ Store</div>
-      <div style="color: #737373; font-size: 0.85rem;">Game library & store — publish your creations, players discover and play</div>
-    </div>
-  </div>
-</div>
+---
 
-<div class="divider"></div>
+## 👑 NovaForge — The 3-in-1 Game Platform
 
-## Flagships
-
-<div class="project-grid">
-  <div class="project-item">
-    <h3>🔥 Nova-Forge</h3>
-    <p>3-in-1 game platform — custom engine + editor + store</p>
-    <div class="tech">C++23 · Vulkan · Python</div>
-  </div>
-  <div class="project-item">
-    <h3>🌍 NovaForge World Engine</h3>
-    <p>Browser-based AAA world editor — terrain, forests, export to any engine</p>
-    <div class="tech">TypeScript · Three.js · WebGPU</div>
-  </div>
-  <div class="project-item">
-    <h3>🧩 WebForge</h3>
-    <p>Web game dev platform — 227 source files, feature-complete</p>
-    <div class="tech">TypeScript · 1,910 tests</div>
-  </div>
-  <div class="project-item">
-    <h3>🤖 Varro</h3>
-    <p>100% local autonomous AI developer — 9 agents, 28 tools, zero cloud</p>
-    <div class="tech">Python · 1,059 tests</div>
-  </div>
-  <div class="project-item">
-    <h3>🗣️ Nexus</h3>
-    <p>Multimodal voice AI — sees, hears, controls your computer</p>
-    <div class="tech">Gemini 2.5 Live API</div>
-  </div>
-  <div class="project-item">
-    <h3>🧠 RoyalOS</h3>
-    <p>Self-hostable AI operating platform — agent fleet control plane</p>
-    <div class="tech">TypeScript</div>
-  </div>
-  <div class="project-item">
-    <h3>🛡️ <a href="https://github.com/MrNova420/RoyalSecurity" style="color: #c084fc;">RoyalSecurity</a></h3>
-    <p>Open-source EDR/XDR/SIEM — all-in-one cybersecurity in a single agent</p>
-    <div class="tech">Rust · Tauri 2 · Next.js 16</div>
-  </div>
-  <div class="project-item">
-    <h3>🧬 BLOCKLIFE-AI</h3>
-    <p>Living Minecraft civilization engine — quantized local models</p>
-    <div class="tech">TypeScript · Ollama</div>
-  </div>
-  <div class="project-item">
-    <h3>🌌 Aetheria</h3>
-    <p>Browser RPG — 255 procedural galaxies, GTA × No Man's Sky</p>
-    <div class="tech">Three.js · WebGL2</div>
-  </div>
-  <div class="project-item">
-    <h3>💀 NEON ARENA</h3>
-    <p>Cyberpunk FPS — AI bots, multiplayer, neon aesthetics</p>
-    <div class="tech">TypeScript · 750+ tests</div>
-  </div>
-  <div class="project-item">
-    <h3>🔍 AutoOffsetDumper</h3>
-    <p>Universal memory-offset scanner — 25+ engines, ML classification</p>
-    <div class="tech">Rust · C#</div>
-  </div>
-  <div class="project-item">
-    <h3>👁️ omnieye</h3>
-    <p>RF/network reconnaissance — 6 collectors, 3D web UI</p>
-    <div class="tech">Python</div>
-  </div>
-  <div class="project-item">
-    <h3>🔐 DNALockOS</h3>
-    <p>DNA-key authentication — commercial-grade security</p>
-    <div class="tech">Python</div>
-  </div>
-  <div class="project-item">
-    <h3>🖥️ <a href="https://github.com/MrNova420/AnVPS" style="color: #c084fc;">AnVPS</a></h3>
-    <p>Android → hardened VPS — runs on 32MB RAM, auto-healing</p>
-    <div class="tech">Shell</div>
-  </div>
-  <div class="project-item">
-    <h3>⚡ odysseus</h3>
-    <p>Self-hosted AI workspace — agents, MCP, memory, privacy-first</p>
-    <div class="tech">JavaScript</div>
-  </div>
-</div>
-
-<div class="divider"></div>
-
-## Project Vault
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-
-<div>
-
-<div class="section-title">🎮 Game Engines & Worlds</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>NovaForge World Engine</h3>
-  <p>Browser-based AAA world editor with Three.js + WebGPU</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>WebForge</h3>
-  <p>Full web game dev platform — UE5-quality rendering, Unity-ease workflow</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Aetheria: Endless Frontiers</h3>
-  <p>8.4 billion star systems per galaxy, seamless exploration</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>NEON ARENA</h3>
-  <p>Cyberpunk FPS with AI bots and multiplayer</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>procedural-sprite-factory</h3>
-  <p>Automated sprite generation pipeline</p>
-</div>
-
-<div class="section-title">🧠 AI Systems</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Nexus</h3>
-  <p>Multimodal voice assistant — screen analysis, workflow automation</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Varro</h3>
-  <p>Autonomous developer that learns your codebase and style</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>RoyalOS</h3>
-  <p>AI workspace, Discord communities, agent fleets — one dashboard</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>BLOCKLIFE-AI</h3>
-  <p>Self-aware Minecraft civilization running locally via Ollama</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>odysseus</h3>
-  <p>Self-hosted workspace — vLLM, llama.cpp, Ollama, MCP + memory</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>AINeralNet</h3>
-  <p>Centralized multi-model AI secured by DNA-key auth</p>
-</div>
-
-</div>
-<div>
-
-<div class="section-title">🛡️ Security & Defense</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3><a href="https://github.com/MrNova420/RoyalSecurity" style="color: #c084fc;">RoyalSecurity</a></h3>
-  <p>Open-source EDR/XDR/SIEM/HIPS/DLP — Rust + Tauri + Next.js</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>DNALockOS</h3>
-  <p>Proprietary DNA-key authentication system</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>omnieye</h3>
-  <p>Phone-based RF/network recon — 6 collectors, 3D UI, no root</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>JARVIS-Cybersecurity</h3>
-  <p>Full-stack security platform with real-time scanning</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>innerflect</h3>
-  <p>Secure, anonymous, self-healing public website</p>
-</div>
-
-<div class="section-title">🔬 Reverse Engineering</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>AutoOffsetDumper</h3>
-  <p>Universal memory-offset scanner — 25+ engines, ML + LLM</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Nova-BioRadar</h3>
-  <p>Android life-form detection radar — Kotlin, 18k lines</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>PHANTOM</h3>
-  <p>Tactical network overlay module</p>
-</div>
-
-<div class="section-title">📱 Infrastructure</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3><a href="https://github.com/MrNova420/AnVPS" style="color: #c084fc;">AnVPS</a></h3>
-  <p>Android → hardened VPS, 32MB RAM, one-command install</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3><a href="https://github.com/MrNova420/WinVPS" style="color: #c084fc;">WinVPS</a></h3>
-  <p>Windows fork of AnVPS</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>NeuralMesh</h3>
-  <p>Infrastructure orchestration — any device → server node</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>minecraft-server-manager</h3>
-  <p>Android device → 24/7 MC server</p>
-</div>
-
-<div class="section-title">⛏️ Automation</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Verus Miner Fleet</h3>
-  <p>12+ automated mining tools, pool switching, full automation</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>li-li-viral-farm</h3>
-  <p>Autonomous multi-account social media farm</p>
-</div>
-
-<div class="section-title">🕹️ Game Automation</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Civilization-MC-Bots</h3>
-  <p>Autonomous bots building civilizations in Minecraft</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>AFK-McBot Series</h3>
-  <p>V1 → V2 → V3 → Stable, servers alive 24/7</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3><a href="https://github.com/MrNova420/minefind" style="color: #c084fc;">minefind</a></h3>
-  <p>Rust-powered Minecraft server discovery</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3><a href="https://github.com/MrNova420/ScriptVaultLibs" style="color: #c084fc;">ScriptVaultLibs</a></h3>
-  <p>Lua library suite — UI, utils, core frameworks</p>
-</div>
-
-<div class="section-title">🧬 NovaForge Family</div>
-
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>Nova-Forge</h3>
-  <p>3-in-1: NovaCore C++23 engine + editor + store</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>NovaForge World Engine</h3>
-  <p>Browser AAA editor — terrain sculpting + forest painting</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>NovaCore Engine</h3>
-  <p>Custom engine from scratch — Vulkan rendering pipeline</p>
-</div>
-<div class="project-item" style="margin-bottom: 0.8rem;">
-  <h3>royal-forge</h3>
-  <p>Royal Commander task manager CLI in Rust</p>
-</div>
-
-</div>
-</div>
-
-<div class="divider"></div>
-
-## Blueprints
-
-<div class="profile-card">
-  <h2>Planned Architecture</h2>
-  <p>Every system has a blueprint. These are the long-term visions:</p>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
-    <div>
-      <div style="color: #e9d5ff; font-weight: 600;">Nova-Forge</div>
-      <div style="color: #737373; font-size: 0.85rem;">NovaCore engine (C++23) + device editor (Vulkan) + game store app</div>
-    </div>
-    <div>
-      <div style="color: #e9d5ff; font-weight: 600;">RoyalOS</div>
-      <div style="color: #737373; font-size: 0.85rem;">Agent creation, workflows, voice, multi-model routing, extension ecosystem</div>
-    </div>
-    <div>
-      <div style="color: #e9d5ff; font-weight: 600;">WebForge</div>
-      <div style="color: #737373; font-size: 0.85rem;">"Unreal-quality rendering, Unity-ease workflow, Blender-class modeling"</div>
-    </div>
-    <div>
-      <div style="color: #e9d5ff; font-weight: 600;">Aetheria</div>
-      <div style="color: #737373; font-size: 0.85rem;">255 procedural galaxies, factions, loot, floating islands, corrupted biomes</div>
-    </div>
-    <div>
-      <div style="color: #e9d5ff; font-weight: 600;">Nexus</div>
-      <div style="color: #737373; font-size: 0.85rem;">"The bridge between you and your digital environment"</div>
-    </div>
-    <div>
-      <div style="color: #e9d5ff; font-weight: 600;">BLOCKLIFE</div>
-      <div style="color: #737373; font-size: 0.85rem;">Bedrock → Java → cross-play, one model running a self-aware civilization</div>
-    </div>
-  </div>
-</div>
-
-<div class="divider"></div>
-
-## Focus
-
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem;">
-
-<div class="profile-card">
-  <h2>🔧 Reverse Engineering</h2>
-  <p>Binary analysis, memory scanning, offset dumping, low-level tooling</p>
-</div>
-<div class="profile-card">
-  <h2>🛡️ Security Research</h2>
-  <p>Exploit development & vulnerability discovery</p>
-</div>
-<div class="profile-card">
-  <h2>🫥 Evasion Research</h2>
-  <p>Protection/detection bypass techniques, anti-cheat analysis</p>
-</div>
-<div class="profile-card">
-  <h2>🌐 Web Building</h2>
-  <p>Full-stack sites, platforms & app ecosystems</p>
-</div>
-<div class="profile-card">
-  <h2>🤖 Game Automation</h2>
-  <p>Bot frameworks & scripting across game platforms</p>
-</div>
-<div class="profile-card">
-  <h2>🧠 AI Agents</h2>
-  <p>Local models, autonomous dev assistants, agent fleets</p>
-</div>
-
-</div>
-
-<div class="divider"></div>
-
-## Stack
+> *"Build games. Publish games. Get paid."*
 
 <div align="center">
-  <span class="tech-pill">Python</span>
-  <span class="tech-pill">JavaScript</span>
-  <span class="tech-pill">TypeScript</span>
-  <span class="tech-pill">Rust</span>
-  <span class="tech-pill">C#</span>
-  <span class="tech-pill">C++</span>
-  <span class="tech-pill">Lua</span>
-  <span class="tech-pill">Luau</span>
-  <span class="tech-pill">Shell</span>
-  <span class="tech-pill">PowerShell</span>
-  <span class="tech-pill">Kotlin</span>
-  <span class="tech-pill">SQL</span>
-  <span class="tech-pill">HTML/CSS</span>
-  <span class="tech-pill">GLSL</span>
-  <span class="tech-pill">WASM</span>
-  <br/>
-  <span class="tech-pill">Three.js</span>
-  <span class="tech-pill">WebGL2</span>
-  <span class="tech-pill">WebGPU</span>
-  <span class="tech-pill">Next.js</span>
-  <span class="tech-pill">React</span>
-  <span class="tech-pill">Tauri</span>
-  <span class="tech-pill">Node.js</span>
-  <span class="tech-pill">Vulkan</span>
-  <br/>
-  <span class="tech-pill">Ollama</span>
-  <span class="tech-pill">Gemini API</span>
-  <span class="tech-pill">Git</span>
-  <span class="tech-pill">Docker</span>
-  <span class="tech-pill">CMake</span>
-  <span class="tech-pill">Jetpack Compose</span>
+<table>
+<tr>
+<td width="33%" align="center">
+
+🧬 **NovaCore**
+Custom AAA game engine built from scratch in **C++23** with Vulkan rendering
+
+</td>
+<td width="33%" align="center">
+
+🛠️ **Editor & Tools**
+Native game development tools — build on real devices with a Vulkan pipeline
+
+</td>
+<td width="33%" align="center">
+
+🕹️ **NovaForge App**
+Game library & store — publish your creations, players discover and play
+
+</td>
+</tr>
+</table>
+
+<em>Your own Unity + Unreal + Steam, combined.</em>
 </div>
 
-<div class="divider"></div>
+---
 
-## Currently Building
+## ⭐ Flagships
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-  <div class="project-item">
-    <h3>🧬 NovaCore engine</h3>
-    <p>Custom AAA game engine from scratch in C++23 with Vulkan</p>
-  </div>
-  <div class="project-item">
-    <h3>🔍 Memory-analysis tooling</h3>
-    <p>Rust rewrite, ML-assisted classification</p>
-  </div>
-  <div class="project-item">
-    <h3>🔐 Encrypted delivery platform</h3>
-    <p>Offline-first protection system</p>
-  </div>
-  <div class="project-item">
-    <h3>🤖 Agent platform expansion</h3>
-    <p>Fleet management, voice, community systems</p>
-  </div>
-  <div class="project-item">
-    <h3>🎬 Movie stream pipeline</h3>
-    <p>Sniffer → downloader → player</p>
-  </div>
-  <div class="project-item">
-    <h3>🌍 Procedural world generation</h3>
-    <p>Luau-based map systems for Roblox Studio</p>
-  </div>
-</div>
+| | Project | What It Is | Built With |
+|---|---|---|---|
+| 🔥 | **Nova-Forge** | 3-in-1 game platform — engine + editor + store | C++23 · Vulkan · Python |
+| 🌍 | **NovaForge World Engine** | Browser-based AAA world editor — terrain, forests, export | TypeScript · Three.js · WebGPU |
+| 🧩 | **WebForge** | Web game dev platform — 227 source files, feature-complete | TypeScript · **1,910 tests** |
+| 🤖 | **Varro** | 100% local autonomous AI developer — 9 agents, 28 tools | Python · **1,059 tests** |
+| 🗣️ | **Nexus** | Multimodal voice AI — sees, hears, controls your computer | Gemini 2.5 Live API |
+| 🧠 | **RoyalOS** | Self-hostable AI operating platform — agent fleet control plane | TypeScript |
+| 🛡️ | [**RoyalSecurity**](https://github.com/MrNova420/RoyalSecurity) | Open-source EDR/XDR/SIEM — all-in-one cybersecurity | Rust · Tauri 2 · Next.js 16 |
+| 🧬 | **BLOCKLIFE-AI** | Living Minecraft civilization engine — quantized local models | TypeScript · Ollama |
+| 🌌 | **Aetheria** | Browser RPG — 255 procedural galaxies, GTA × No Man's Sky | Three.js · WebGL2 |
+| 💀 | **NEON ARENA** | Cyberpunk FPS — AI bots, multiplayer, neon aesthetics | TypeScript · **750+ tests** |
+| 🔍 | **AutoOffsetDumper** | Universal memory-offset scanner — 25+ engines, ML | Rust · C# |
+| 👁️ | **omnieye** | RF/network reconnaissance — 6 collectors, 3D web UI | Python |
+| 🔐 | **DNALockOS** | DNA-key authentication — commercial-grade security | Python |
+| 🖥️ | [**AnVPS**](https://github.com/MrNova420/AnVPS) | Android → hardened VPS — runs on 32MB RAM, auto-healing | Shell |
+| ⚡ | **odysseus** | Self-hosted AI workspace — agents, MCP, memory | JavaScript |
 
-<div class="divider"></div>
+---
 
-## Stats
+## 🌟 Why Try My Repos?
+
+- **Always Evolving:** I never leave things stale — updates and improvements land frequently.
+- **Real Experiments:** If it's here, I've tested it, broken it, and rebuilt it for the next breakthrough.
+- **Open for Feedback:** Join in! Issues, discussions, or pull requests welcome.
+- **Built for You:** My projects aren't just for show; they're for use — by people like you.
+
+---
+
+## 🗄️ Project Vault
+
+<div align="center"><em>Every category. Every system. Everything under active development.</em></div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🎮 Game Engines & Worlds
+- **NovaForge World Engine** — browser-based AAA world editor with Three.js + WebGPU
+- **WebForge** — full web game dev platform (UE5-quality rendering, Unity-ease workflow)
+- **Aetheria: Endless Frontiers** — 8.4 billion star systems per galaxy, seamless exploration
+- **NEON ARENA** — cyberpunk FPS with AI bots and multiplayer
+- **procedural-sprite-factory** — automated sprite generation pipeline
+
+#### 🧠 AI Systems
+- **Nexus** — multimodal voice assistant, screen analysis, workflow automation
+- **Varro** — autonomous developer that learns your codebase and style
+- **RoyalOS** — AI workspace, Discord communities, agent fleets — one dashboard
+- **BLOCKLIFE-AI** — self-aware Minecraft civilization running locally via Ollama
+- **odysseus** — self-hosted workspace — vLLM, llama.cpp, Ollama, MCP + memory
+- **Beta** — personal AI assistant
+- **AINeralNet** — centralized multi-model AI secured by DNA-key auth
+
+#### 🛡️ Security & Defense
+- [**RoyalSecurity**](https://github.com/MrNova420/RoyalSecurity) — open-source EDR/XDR/SIEM/HIPS/DLP (Rust + Tauri + Next.js)
+- **DNALockOS** — proprietary DNA-key authentication system
+- **omnieye** — phone-based RF/network recon, 6 collectors, 3D UI, no root
+- **JARVIS-Cybersecurity** — full-stack security platform with real-time scanning
+- **innerflect** — secure, anonymous, self-healing public website
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔬 Reverse Engineering & Tooling
+- **AutoOffsetDumper** — universal memory-offset scanner, 25+ engines, ML + LLM
+- **Nova-BioRadar** — Android life-form detection radar — Kotlin, 18k lines
+- **PHANTOM** — tactical network overlay module
+
+#### 📱 Infrastructure
+- [**AnVPS**](https://github.com/MrNova420/AnVPS) — Android → hardened VPS, 32MB RAM, one-command install
+- [**WinVPS**](https://github.com/MrNova420/WinVPS) — Windows fork of AnVPS
+- **NeuralMesh** — infrastructure orchestration — any device → server node
+- **minecraft-server-manager** — Android device → 24/7 MC server
+
+#### ⛏️ Automation
+- **Verus Miner Fleet** — 12+ automated mining tools, pool switching, full automation
+- **li-li-viral-farm** — autonomous multi-account social media farm
+
+#### 🕹️ Game Automation
+- **Civilization-MC-Bots** — autonomous bots building civilizations in Minecraft
+- **AFK-McBot Series** — V1 → V2 → V3 → Stable, servers alive 24/7
+- [**minefind**](https://github.com/MrNova420/minefind) — Rust-powered Minecraft server discovery
+- [**ScriptVaultLibs**](https://github.com/MrNova420/ScriptVaultLibs) — Lua library suite
+
+#### 🧬 NovaForge Family
+- **Nova-Forge** — 3-in-1: NovaCore C++23 engine + editor + store
+- **NovaForge World Engine** — browser AAA editor, terrain sculpting + forest painting
+- **NovaCore Engine** — custom engine from scratch, Vulkan rendering pipeline
+- **royal-forge** — Royal Commander task manager CLI in Rust
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔭 Blueprints
+
+*The planned architecture behind every system:*
+
+| System | Vision |
+|---|---|
+| **Nova-Forge** | NovaCore engine (C++23) + device editor (Vulkan) + game store app |
+| **RoyalOS** | Agent creation, workflows, voice, multi-model routing, extension ecosystem |
+| **WebForge** | "Unreal-quality rendering, Unity-ease workflow, Blender-class modeling" |
+| **Aetheria** | 255 procedural galaxies, factions, loot, floating islands, corrupted biomes |
+| **Nexus** | *"The bridge between you and your digital environment"* |
+| **BLOCKLIFE** | Bedrock → Java → cross-play, one model running a self-aware civilization |
+
+---
+
+## 🎯 Focus
+
+<table>
+<tr>
+<td width="50%">
+
+🔧 **Reverse Engineering**
+Binary analysis, memory scanning, offset dumping, low-level tooling
+
+🛡️ **Security Research**
+Exploit development & vulnerability discovery
+
+🫥 **Evasion Research**
+Protection/detection bypass techniques, anti-cheat analysis
+
+</td>
+<td width="50%">
+
+🌐 **Web Building**
+Full-stack sites, platforms & app ecosystems
+
+🤖 **Game Automation**
+Bot frameworks & scripting across game platforms
+
+🧠 **AI Agents**
+Local models, autonomous dev assistants, agent fleets
+
+⚙️ **Automation**
+VPS deployment, mining rigs, shell automation
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech & Workflow
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MrNova420&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=C084FC&text_color=E6EDF3&border_color=21262d" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrNova420&layout=compact&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=E6EDF3&langs_count=10&border_color=21262d" height="165" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=MrNova420&hide_border=true&background=0D1117&stroke=A855F7&ring=C084FC&fire=F472B6&currStreakLabel=A855F7&sideLabels=E6EDF3&dates=8B949E&border=21262d" height="165" />
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MrNova420&bg_color=0D1117&color=E6EDF3&line=A855F7&point=C084FC&hide_border=true&area=true&area_color=6D28D9&border_color=21262d" width="100%" />
-  <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=MrNova420&theme=radical&no-frame=true&row=1&column=7&margin-w=8" width="100%" />
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua_Luau-000080?style=flat-square&logo=lua&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell_Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![HTML_CSS](https://img.shields.io/badge/HTML_CSS-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+**Frameworks & Engines**
+
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![WebGL2](https://img.shields.io/badge/WebGL2-990000?style=flat-square&logo=webgl&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tauri](https://img.shields.io/badge/Tauri_2-FFC131?style=flat-square&logo=tauri&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Vulkan](https://img.shields.io/badge/Vulkan-016170?style=flat-square&logo=vulkan&logoColor=white)
+
+**Tools**
+
+![Ollama](https://img.shields.io/badge/Ollama-FFFFFF?style=flat-square&logo=ollama&logoColor=black)
+![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
 </div>
 
-<div class="divider"></div>
+- Languages: _(Check each repo for details: versatility is my style!)_
+- Tools: Always on the hunt for what's new, useful, or just plain fun.
+- Workstyle: Active, transparent, and always a bit unconventional.
 
-## Snake
+---
+
+## 🦄 What Makes Me Different?
+
+- **Authentic:** This profile is my real digital space — no corporate facade.
+- **Engaged:** I answer DMs, respond to your issues, and value collaborators.
+- **Fun:** I believe coding should be creative and playful — expect surprises!
+- **Building Ecosystems:** Not just apps — game engines, AI platforms, security suites, all from scratch.
+
+---
+
+## 🔥 Currently Building
+
+- 🧬 **NovaCore engine** — custom AAA game engine from scratch in C++23 with Vulkan
+- 🔍 **Memory-analysis tooling** — Rust rewrite, ML-assisted classification
+- 🔐 **Encrypted delivery platform** — offline-first protection system
+- 🤖 **Agent platform expansion** — fleet management, voice, community systems
+- 🎬 **Movie stream pipeline** — sniffer → downloader → player
+- 🌍 **Procedural world generation** — Luau-based map systems for Roblox Studio
+
+---
+
+## 📊 Stats
 
 <div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=MrNova420&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00ff41&icon_color=00ff41&text_color=E6EDF3&border_color=21262d" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrNova420&layout=compact&hide_border=true&bg_color=0D1117&title_color=00ff41&text_color=E6EDF3&langs_count=10&border_color=21262d" height="165" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=MrNova420&hide_border=true&background=0D1117&stroke=00ff41&ring=C084FC&fire=F472B6&currStreakLabel=00ff41&sideLabels=E6EDF3&dates=8B949E&border=21262d" height="165" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MrNova420&bg_color=0D1117&color=E6EDF3&line=00ff41&point=C084FC&hide_border=true&area=true&area_color=6D28D9&border_color=21262d" width="100%" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=MrNova420&theme=radical&no-frame=true&row=1&column=7&margin-w=8" width="100%" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg" />
   <img alt="Animated snake eating through the contribution grid" src="assets/snake-dark.svg" width="100%" />
 </picture>
+
 </div>
 
-<div class="divider"></div>
+---
+
+## 🚀 Let's Get Connected
+
+- **Profile:** [MrNova420 on GitHub](https://github.com/MrNova420)
+- **Started my GitHub journey:** Dec 2023
+- **Followers:** It's just the beginning — join, follow, and let's grow together!
+
+---
+
+### 💭 Quote of the Day
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:6d28d9,100:a855f7" width="100%" />
-  <br/>
-  <span style="color: #7c7c7c; font-family: monospace;">MrNova420 · WeNova Interactive</span>
-  <br/>
-  <span style="color: #525252; font-family: monospace; font-size: 0.8rem;">All repositories under active development and continuously improved.</span>
+
+![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+<sub>A new quote appears every time you visit — refresh for inspiration!</sub>
+
+</div>
+
+---
+
+### 📊 Live Visitor Count
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=MrNova420&label=Profile+Views&color=00ff41&style=flat-square)
+![All-Time Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMrNova420&count_bg=%2300FF41&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=All-Time+Views&edge_flat=true)
+
+![Followers](https://img.shields.io/github/followers/MrNova420?label=Followers&style=social)
+![Stars](https://img.shields.io/github/stars/MrNova420?label=Total%20Stars&style=social)
+
+<sub>All metrics auto-update in real-time — 100% future-proof!</sub>
+
+</div>
+
+---
+
+### ❤️ Ways to Support & Collaborate
+
+- **Star a repo** that interests you — help signal cool discoveries.
+- **Open an issue** with your ideas or questions — your insight matters.
+- **Fork & build** — use my work for your own experiments!
+- **Share feedback** or just say hi.
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:6d28d9,100:a855f7&text=Thanks%20for%20Visiting!&fontSize=32&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00ff41&center=true&vCenter=true&width=600&lines=Let's+build+something+amazing+together!;Open+to+collaborations+and+ideas;Always+learning%2C+always+building;The+future+is+what+we+make+it!" alt="Footer Typing" />
+
+**Made with 💚 by MrNova420 — Always Innovating, Never Settling**
+
 </div>
