@@ -18,8 +18,6 @@
 ![Projects](https://img.shields.io/badge/Projects-150%2B-A855F7?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-20%2B-C084FC?style=for-the-badge)
 
-<br/>
-
 ![Game Engines](https://img.shields.io/badge/Game_Engines-00ff41?style=flat-square)
 ![AI Systems](https://img.shields.io/badge/AI_Systems-7C3AED?style=flat-square)
 ![Security](https://img.shields.io/badge/Security-6D28D9?style=flat-square)
@@ -37,29 +35,9 @@ A passionate beginner developer, still learning just like everyone!, who turns i
 > *"I'm a developer focused on long-term projects and experimentation — all repositories are under active development and continuously improved."*
 > Every repository here is alive: improving, growing, and open to new possibilities.
 
----
+**What I do differently:** I don't build apps. I build **platforms** — game engines from scratch in C++, AI agents that control your entire computer, cybersecurity suites with thousands of passing tests, browser-based world editors rivaling desktop tools. All solo. All under continuous development.
 
-## 👽 Who Am I, Really?
-
-- **Curious mind. Relentless experimenter. Builder of entire ecosystems.**
-- I don't build apps. I build **platforms**: game engines, AI operating systems, security suites, and the infrastructure underneath them.
-- Every repo reflects not just what I'm interested in, but what I want you to discover and have fun with while being useful.
-- Driven by learning and real-life uses, not just in code, but in how people use technology.
-
-> _"I'm a developer focused on long-term projects and experimentation."_ — Every repository here is alive: improving, growing, and open to new possibilities.
-
----
-
-## 🚀 Active Projects & Experiments
-
-Check out my main repositories — each with its own story, utility, and curiosity:
-
-- **[My GitHub Projects](https://github.com/MrNova420?tab=repositories)**
-    - _Active, practical tools and demos_
-    - _Experimental code and playgrounds_
-    - _Long-term commitments in open source_
-
-👀 _Browse my commit history:_ See the evolution — code changes, refactors, and community input.
+**Why try my repos?** Always evolving — I never leave things stale. Real experiments — if it's here, I've tested it, broken it, and rebuilt it. Open for feedback — issues, discussions, or pull requests welcome. Built for you — my projects aren't just for show; they're for use.
 
 ---
 
@@ -115,15 +93,6 @@ Game library & store — publish your creations, players discover and play
 | 🔐 | **DNALockOS** | DNA-key authentication — commercial-grade security | Python |
 | 🖥️ | [**AnVPS**](https://github.com/MrNova420/AnVPS) | Android → hardened VPS — runs on 32MB RAM, auto-healing | Shell |
 | ⚡ | **odysseus** | Self-hosted AI workspace — agents, MCP, memory | JavaScript |
-
----
-
-## 🌟 Why Try My Repos?
-
-- **Always Evolving:** I never leave things stale — updates and improvements land frequently.
-- **Real Experiments:** If it's here, I've tested it, broken it, and rebuilt it for the next breakthrough.
-- **Open for Feedback:** Join in! Issues, discussions, or pull requests welcome.
-- **Built for You:** My projects aren't just for show; they're for use — by people like you.
 
 ---
 
@@ -245,11 +214,9 @@ VPS deployment, mining rigs, shell automation
 
 ---
 
-## 🛠️ Tech & Workflow
+## 🛠️ Stack
 
 <div align="center">
-
-**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -264,8 +231,6 @@ VPS deployment, mining rigs, shell automation
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![HTML_CSS](https://img.shields.io/badge/HTML_CSS-E34F26?style=flat-square&logo=html5&logoColor=white)
 
-**Frameworks & Engines**
-
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![WebGL2](https://img.shields.io/badge/WebGL2-990000?style=flat-square&logo=webgl&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -274,29 +239,12 @@ VPS deployment, mining rigs, shell automation
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Vulkan](https://img.shields.io/badge/Vulkan-016170?style=flat-square&logo=vulkan&logoColor=white)
 
-**Tools**
-
 ![Ollama](https://img.shields.io/badge/Ollama-FFFFFF?style=flat-square&logo=ollama&logoColor=black)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </div>
-
-- Languages: _(Check each repo for details: versatility is my style!)_
-- Tools: Always on the hunt for what's new, useful, or just plain fun.
-- Workstyle: Active, transparent, and always a bit unconventional.
-
----
-
-## 🦄 What Makes Me Different?
-
-- **Authentic:** This profile is my real digital space — no corporate facade.
-- **Engaged:** I answer DMs, respond to your issues, and value collaborators.
-- **Fun:** I believe coding should be creative and playful — expect surprises!
-- **Building Ecosystems:** Not just apps — game engines, AI platforms, security suites, all from scratch.
-- **Always Evolving:** I never leave things stale — updates and improvements land frequently.
-- **Real Experiments:** If it's here, I've tested it, broken it, and rebuilt it for the next breakthrough.
 
 ---
 
@@ -334,7 +282,7 @@ VPS deployment, mining rigs, shell automation
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Snake
 
 <div align="center">
 
@@ -348,51 +296,24 @@ VPS deployment, mining rigs, shell automation
 
 ---
 
-## 🚀 Let's Get Connected
-
-- **Profile:** [MrNova420 on GitHub](https://github.com/MrNova420)
-- **Started my GitHub journey:** Dec 2023
-- **Followers:** It's just the beginning — join, follow, and let's grow together!
-
----
-
-### 💭 Quote of the Day
-
-<div align="center">
-
-![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-<sub>A new quote appears every time you visit — refresh for inspiration!</sub>
-
-</div>
-
----
-
-### 📊 Live Visitor Count
+## 🚀 Community
 
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=MrNova420&label=Profile+Views&color=A855F7&style=flat-square)
-
 ![Followers](https://img.shields.io/github/followers/MrNova420?label=Followers&style=social)
-![Stars](https://img.shields.io/github/stars/MrNova420?label=Total%20Stars&style=social)
-
-<sub>All metrics auto-update in real-time</sub>
+![Stars](https://img.shields.io/github/stars/MrNova420?label=Total+Stars&style=social)
 
 </div>
 
----
-
-### ❤️ Ways to Support & Collaborate
-
-- **Star a repo** that interests you — help signal cool discoveries.
-- **Open an issue** with your ideas or questions — your insight matters.
-- **Fork & build** — use my work for your own experiments!
-- **Share feedback** or just say hi.
+**Ways to support & collaborate:**
+Star a repo that interests you · Open an issue with your ideas · Fork & build — use my work for your own experiments · Share feedback or just say hi
 
 ---
 
 <div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:6d28d9,100:a855f7&text=Thanks%20for%20Visiting!&fontSize=32&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%" />
 
