@@ -24,7 +24,6 @@
 
 - 🏗️ **Solo ecosystem architect** — I don't build apps, I build *platforms*: game engines, AI operating systems, security suites, and the infrastructure underneath them
 - 🧠 **AI-assisted workflow** — power user of agentic dev tooling with **~1,800 logged build sessions** across 15+ live workspaces
-- 🔒 **Local-first everything** — my AI runs on my hardware, my data never leaves my machines
 - ♾️ **Long-term mindset** — projects don't get abandoned here, they get versioned
 
 <br/>
